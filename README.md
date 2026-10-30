@@ -16,6 +16,8 @@
 | `img/lite/lite-hero-mobile.jpg` | Тур «Путораны.Лайт» — первый экран (телефон) | 1200×1800 |
 | `img/relax/relax-hero-2560.jpg` | Релакс-тур — первый экран (компьютер) | 2560 px по ширине |
 | `img/relax/relax-hero-mobile.jpg` | Релакс-тур — первый экран (телефон) | 1200×1800 |
+| `img/hoysi/hoysi-hero-2560.jpg` | Поход «К водопадам на реке Хойси» — первый экран (компьютер) | до 2560 px |
+| `img/hoysi/hoysi-hero-mobile.jpg` | Поход к водопадам Хойси — первый экран (телефон) | 1200×1800 |
 | `img/foto-tour-src/` | Оригиналы со страницы putorana.land/foto-tour | — |
 
 Ссылка для сайта (через jsDelivr): `https://cdn.jsdelivr.net/gh/RoProductionstudio/putorana-images@<коммит>/img/<файл>`
