@@ -8,8 +8,8 @@
 | `img/hero-light-mobile.jpg` | Главная — первый экран (телефон) | 1200×1800 |
 | `img/tropy-hero-2560.jpg` | Тур «Путоранскими тропами» — первый экран (компьютер) | 2560×1019 |
 | `img/tropy-hero-mobile.jpg` | Тур «Путоранскими тропами» — первый экран (телефон) | 1200×1800 |
-| `img/foto-tour/foto-hero-2000.jpg` | Фототур с Никитой Крашевским — первый экран (компьютер) | 1999×1333 |
-| `img/foto-tour/foto-hero-mobile.jpg` | Фототур — первый экран (телефон) | 888×1333 |
+| `img/foto-tour/foto-hero-2560.jpg` | Фототур с Никитой Крашевским — первый экран (компьютер) | 2560×1707 |
+| `img/foto-tour/foto-hero-mobile.jpg` | Фототур — первый экран (телефон) | 1200×1800 |
 | `img/foto-tour/hq-*.jpg`, `foto-bird`, `foto-gull` | Фототур — галерея | до 2000 px |
 | `img/foto-tour/nikita.jpg` | Фототур — блок «О фототуре» | 1920×1772 |
 | `img/foto-tour-src/` | Оригиналы со страницы putorana.land/foto-tour | — |
