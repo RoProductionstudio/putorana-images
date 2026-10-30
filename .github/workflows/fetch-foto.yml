@@ -1,0 +1,27 @@
+name: fetch foto-tour photos
+on:
+  push:
+    paths: ['foto-src/urls.txt']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download
+        run: |
+          mkdir -p img/foto-tour-src
+          while read -r name url; do
+            [ -z "$name" ] && continue
+            curl -fsSL --retry 3 -o "img/foto-tour-src/$name" "$url"
+          done < foto-src/urls.txt
+          ls -la img/foto-tour-src
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add img/foto-tour-src
+          git commit -m "Original photos from putorana.land/foto-tour" || echo "nothing to commit"
+          git push
