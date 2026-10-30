@@ -12,6 +12,8 @@
 | `img/foto-tour/foto-hero-mobile.jpg` | Фототур — первый экран (телефон) | 1200×1800 |
 | `img/foto-tour/hq-*.jpg`, `foto-bird`, `foto-gull` | Фототур — галерея | до 2000 px |
 | `img/foto-tour/nikita.jpg` | Фототур — блок «О фототуре» | 1920×1772 |
+| `img/lite/lite-hero-2560.jpg` | Тур «Путораны.Лайт» — первый экран (компьютер) | 2560×1707 |
+| `img/lite/lite-hero-mobile.jpg` | Тур «Путораны.Лайт» — первый экран (телефон) | 1200×1800 |
 | `img/foto-tour-src/` | Оригиналы со страницы putorana.land/foto-tour | — |
 
 Ссылка для сайта (через jsDelivr): `https://cdn.jsdelivr.net/gh/RoProductionstudio/putorana-images@<коммит>/img/<файл>`
